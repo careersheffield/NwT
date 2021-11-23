@@ -1,0 +1,8 @@
+===============================
+For javascript
+change "data.php" to your scriptname
+==============================
+For data.php
+change "EMAIL $to & $from" to another EMAIL ID
+
+-----------Created & Powered By : © IroKo Host Network-------------
