@@ -1,0 +1,400 @@
+/* CSS Document */
+/* --------------------------------------------- FEATURE -- */
+.feature-wrap-outer {
+  background: url("../images/bkd-hp-feature.jpg") no-repeat top center;
+  position: relative;
+  padding-top: 20em; }
+  @media (max-width: 650px) {
+    .feature-wrap-outer {
+      min-height: 500px;
+      padding-top: 8em; } }
+  .feature-wrap-outer:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+59 */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(85%, #ffffff), to(#ffffff));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 85%, #ffffff 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 85%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    /* IE6-9 */ }
+    @media (max-width: 650px) {
+      .feature-wrap-outer:after {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+59 */
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(35%, #ffffff), to(#ffffff));
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 35%, #ffffff 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 35%, #ffffff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+        /* IE6-9 */ } }
+    @media (max-width: 570px) {
+      .feature-wrap-outer:after {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+59 */
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(30%, #ffffff), to(#ffffff));
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 30%, #ffffff 100%);
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 30%, #ffffff 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+        /* IE6-9 */ } }
+  .feature-wrap-outer .feature-wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 0 1em;
+    width: 100%; }
+    .feature-wrap-outer .feature-wrap .section-feature-hp {
+      width: 100%;
+      margin: auto; }
+    .feature-wrap-outer .feature-wrap .benefits {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+              flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+              align-items: center; }
+      .feature-wrap-outer .feature-wrap .benefits .feature-benefit {
+        width: 25%;
+        text-align: center;
+        padding: 0 0.5em; }
+        @media (max-width: 650px) {
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit {
+            width: 50%;
+            padding: 0.5em; } }
+        @media (max-width: 480px) {
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit {
+            width: 100%;
+            text-align: left;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                    flex-direction: row;
+            flex-wrap: wrap;
+            -webkit-box-pack: start;
+                    justify-content: flex-start;
+            -webkit-box-align: center;
+                    align-items: center;
+            padding: 0 0 0.5em 0; } }
+        .feature-wrap-outer .feature-wrap .benefits .feature-benefit img {
+          width: 70px;
+          margin-bottom: 0.5em; }
+          @media (max-width: 860px) {
+            .feature-wrap-outer .feature-wrap .benefits .feature-benefit img {
+              width: 45px; } }
+          @media (max-width: 480px) {
+            .feature-wrap-outer .feature-wrap .benefits .feature-benefit img {
+              width: 40px;
+              margin-right: 0.5em; } }
+        .feature-wrap-outer .feature-wrap .benefits .feature-benefit p {
+          text-transform: uppercase;
+          color: #273374;
+          margin: 0; }
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit p .statement-start,
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit p .tagline {
+            display: block;
+            line-height: 1.15; }
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit p .statement-start {
+            font-size: 1.25rem; }
+          .feature-wrap-outer .feature-wrap .benefits .feature-benefit p .tagline {
+            font-weight: bold;
+            font-size: 1.5rem; }
+    .feature-wrap-outer .feature-wrap .callouts {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+              flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+              align-items: center;
+      margin-top: 2em; }
+      .feature-wrap-outer .feature-wrap .callouts .feature-callout {
+        width: calc(50% - 0.5em);
+        background: #189aca;
+        padding: 5em 1em;
+        text-align: center;
+        position: relative;
+        border-radius: 5px;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
+        box-shadow: 1px 4px 5px #bbbbbb; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout p {
+          margin: 0; }
+        @media (max-width: 570px) {
+          .feature-wrap-outer .feature-wrap .callouts .feature-callout {
+            width: 100%;
+            padding: 10% 1em; }
+            .feature-wrap-outer .feature-wrap .callouts .feature-callout.manufacturers {
+              margin-top: 1em; } }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout:after {
+          background: #283374;
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 0;
+          opacity: 0.7;
+          border-radius: 5px;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout:hover {
+          -webkit-transform: scale(1.035);
+                  transform: scale(1.035); }
+          .feature-wrap-outer .feature-wrap .callouts .feature-callout:hover .btn {
+            background: #fff;
+            color: #273374;
+            border-color: #fff; }
+            .feature-wrap-outer .feature-wrap .callouts .feature-callout:hover .btn:hover {
+              color: #273374 !important; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout .hidden-link-full {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout.products:hover, .feature-wrap-outer .feature-wrap .callouts .feature-callout.manufacturers:hover {
+          background-position: center center;
+          background-size: 150%; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout.products {
+          background: url("../images/bkd-hp-co-products.jpg") no-repeat bottom left;
+          background-size: cover; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout.manufacturers {
+          background: url("../images/bkd-hp-co-manufacturers.jpg") no-repeat bottom left;
+          background-size: cover; }
+        .feature-wrap-outer .feature-wrap .callouts .feature-callout a {
+          color: #fff;
+          position: relative;
+          z-index: 1;
+          -webkit-transition: 0.2s;
+          transition: 0.2s; }
+
+.content-wrap {
+  padding-bottom: 1em; }
+  .content-wrap .kt-row-column-wrap {
+    padding-top: 0; }
+  .content-wrap .hp-section-about .kt-inside-inner-col {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px; }
+    @media (max-width: 800px) {
+      .content-wrap .hp-section-about .kt-inside-inner-col {
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
+        -webkit-column-gap: 30px;
+           -moz-column-gap: 30px;
+                column-gap: 30px; } }
+    @media (max-width: 520px) {
+      .content-wrap .hp-section-about .kt-inside-inner-col {
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
+        -webkit-column-gap: 0;
+           -moz-column-gap: 0;
+                column-gap: 0; } }
+  .content-wrap .homepage-about-gts {
+    margin-top: 2rem;
+    text-align: center; }
+    @media (max-width: 520px) {
+      .content-wrap .homepage-about-gts {
+        text-align: center;
+        margin-right: 0; } }
+    .content-wrap .homepage-about-gts .btn {
+      padding: 0.35em 2.5em; }
+
+.prefooter {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+  line-height: 1.35; }
+  .prefooter .hp-prefooter-section {
+    width: 50%;
+    padding: 7em 3.5em 3.5em;
+    text-align: center;
+    color: #b2b2b2;
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap; }
+    .prefooter .hp-prefooter-section h2 {
+      color: #b2b2b2; }
+    @media (max-width: 520px) {
+      .prefooter .hp-prefooter-section {
+        width: 100%; } }
+    .prefooter .hp-prefooter-section:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 1;
+      background: #fff;
+      -webkit-transform: translateY(-40%) rotate(-4deg);
+              transform: translateY(-40%) rotate(-4deg); }
+      @media (max-width: 520px) {
+        .prefooter .hp-prefooter-section:after {
+          -webkit-transform: translateY(-60%) rotate(-4deg);
+                  transform: translateY(-60%) rotate(-4deg); } }
+    .prefooter .hp-prefooter-section .section-content {
+      max-width: 500px;
+      width: 100%; }
+    .prefooter .hp-prefooter-section.section-brands {
+      background: #f7f7f7;
+      -webkit-box-pack: end;
+              justify-content: flex-end; }
+      @media (max-width: 520px) {
+        .prefooter .hp-prefooter-section.section-brands {
+          padding-bottom: 6em; } }
+      .prefooter .hp-prefooter-section.section-brands .brand-logos {
+        margin-top: 3em;
+        position: relative; }
+        @media (max-width: 520px) {
+          .prefooter .hp-prefooter-section.section-brands .brand-logos {
+            margin-top: 0; } }
+        .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow {
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%) scale(2);
+                  transform: translateY(-50%) scale(2);
+          z-index: 10;
+          cursor: pointer;
+          -webkit-transition: 0.3s;
+          transition: 0.3s; }
+          .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow:hover {
+            color: #189aca;
+            -webkit-transform: translateY(-50%) scale(2.25);
+                    transform: translateY(-50%) scale(2.25); }
+            .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow:hover.fa-arrow-circle-left {
+              left: 0; }
+            .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow:hover.fa-arrow-circle-right {
+              right: 0; }
+          .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow.fa-arrow-circle-left {
+            left: 0.25rem; }
+          .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-arrow.fa-arrow-circle-right {
+            right: 0.25rem; }
+        @media (max-width: 860px) {
+          .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-slide {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                    flex-direction: column;
+            flex-wrap: wrap;
+            -webkit-box-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                    align-items: center; } }
+        .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-slide > div {
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+                  flex-direction: row;
+          flex-wrap: wrap;
+          -webkit-box-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+                  align-items: center; }
+          .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-slide > div .hp-brand-item .brand-logo {
+            width: 60%;
+            max-width: 140px;
+            max-height: 140px;
+            margin: auto;
+            padding: 2rem 1rem; }
+            @media (max-width: 860px) {
+              .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-slide > div .hp-brand-item .brand-logo {
+                width: 80%;
+                max-width: 240px;
+                max-height: 240px;
+                padding: 1.5rem 1rem; } }
+            @media (max-width: 520px) {
+              .prefooter .hp-prefooter-section.section-brands .brand-logos .slick-slide > div .hp-brand-item .brand-logo {
+                width: 100%; } }
+    .prefooter .hp-prefooter-section.section-certifications {
+      background: #f0f0f0;
+      -webkit-box-pack: start;
+              justify-content: flex-start; }
+      @media (max-width: 520px) {
+        .prefooter .hp-prefooter-section.section-certifications {
+          padding: 1.5em 3.5em 4.5em; } }
+      .prefooter .hp-prefooter-section.section-certifications:after {
+        -webkit-transform: translateY(-40%) rotate(4deg);
+                transform: translateY(-40%) rotate(4deg); }
+        @media (max-width: 520px) {
+          .prefooter .hp-prefooter-section.section-certifications:after {
+            -webkit-transform: translateY(-50%) rotate(4deg);
+                    transform: translateY(-50%) rotate(4deg);
+            background: #f0f0f0;
+            z-index: -0; } }
+      .prefooter .hp-prefooter-section.section-certifications .cerifications-logos {
+        margin: 3em 0;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+                flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+                align-items: center;
+        position: relative;
+        z-index: 2; }
+        .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo {
+          padding: 0 1.5em;
+          margin-top: 0;
+          width: 40%;
+          text-align: center; }
+          @media (max-width: 970px) {
+            .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo {
+              width: 50%; } }
+          @media (max-width: 670px) {
+            .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo {
+              width: 100%; }
+              .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo + .cerification-logo {
+                margin-top: 0.75rem; } }
+          .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo img {
+            width: 90%;
+            max-width: 140px; }
+            @media (max-width: 970px) {
+              .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo img {
+                width: 100%;
+                max-width: 100%; } }
+            @media (max-width: 520px) {
+              .prefooter .hp-prefooter-section.section-certifications .cerifications-logos .cerification-logo img {
+                max-width: 150px; } }
+    .prefooter .hp-prefooter-section h2 {
+      text-transform: uppercase;
+      font-size: 1.35em;
+      position: relative;
+      z-index: 2; }
+
+/*# sourceMappingURL=home.css.map */
